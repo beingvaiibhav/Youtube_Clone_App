@@ -1,6 +1,6 @@
 # YouTube Clone
 
-This project is a clone of the popular video-sharing platform YouTube, developed as a part of Akshay Saini's Namaste React course. It is built using modern front-end technologies, including React, Redux Toolkit, TailwindCSS, and other libraries.
+This project is a clone of the popular video-sharing platform YouTube.It is built using modern front-end technologies, including React, Redux Toolkit, TailwindCSS, and other libraries.
 
 ## Features
 
@@ -14,30 +14,3 @@ This project is a clone of the popular video-sharing platform YouTube, developed
 - **Comments on YouTube:** The app includes a comments section that allows users to view and post comments on a video. The comments are fetched from the YouTube API and are displayed in a threaded view to enhance readability.
 - **Live Chat of YouTube - Get Data Live, Update UI Continuously Developed with API Polling:** The app includes a live chat feature that allows users to view and send messages in real-time. The chat is implemented using API polling, which means that the app regularly makes API calls to fetch new messages and updates the UI accordingly.
 - **React Memo for Optimization:** The app uses `React.memo()` to optimize the performance of certain components. `React.memo()` is a higher-order component that memoizes the result of a component's rendering, preventing unnecessary re-renders and improving performance.
-
-## Usage
-
-To use this project, follow these steps:
-
-1. Clone the repository.
-2. Install the dependencies using `npm install`.
-3. Create a `.env` file in the root directory and add your YouTube API key as `GOOGLE_API_KEY=<your-api-key>`.
-4. Start the development server using `npm start`.
-5. Open your web browser and navigate to `http://localhost:3000`.
-
-## Conclusion
-
-This YouTube clone project demonstrates how to build a modern web application using React, Redux Toolkit, TailwindCSS, and other libraries. The project includes several useful features, such as search suggestions, search caching, optimized search using debouncing and caching, optimized API calls using debouncing, comments section, and live chat. These features are not only useful for a YouTube clone but can be applied to any large-scale web application. The project can be used as a starting point for building similar web applications and as a reference for learning how to implement advanced features in React.
-
-## Dependencies
-
-This project uses the following dependencies:
-
-- React
-- Redux Toolkit
-- Moment
-- React Icons
-- React Router DOM
-- TailwindCSS
-
-These dependencies are listed in the `package.json`
